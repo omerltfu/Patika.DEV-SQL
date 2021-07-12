@@ -12,6 +12,6 @@ WHERE rental_rate = 0.99 and replacement_cost = 12.99 OR replacement_cost = 28.9
 `SELECT * FROM customer
 WHERE first_name = 'Mary';` 
 bu sorguyu yazarak Mary adlı kişinin ikinci adının Smith olduğu anlaşılmakta
-###- film tablosundaki uzunluğu(length) 50 ten büyük OLMAYIP aynı zamanda rental_rate değeri 2.99 veya 4.99 OLMAYAN verileri sıralayınız.
+### -film tablosundaki uzunluğu(length) 50 ten büyük OLMAYIP aynı zamanda rental_rate değeri 2.99 veya 4.99 OLMAYAN verileri sıralayınız.
 `SELECT * FROM film
 WHERE Not length > 50 AND NOT ( rental_rate = 2.99 or rental_rate = 4.99)`
